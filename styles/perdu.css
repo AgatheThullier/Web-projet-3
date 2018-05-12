@@ -12,6 +12,15 @@ font-family: 'ubuntu', sans-serif;
 }
 
 
-a {
-    text-decoration: none ;
-  }
+.home {
+ max-width: 56em;
+ padding-left: 2em;
+ margin-top: 0em;
+ }
+
+  .home a{
+color: #FFFFFF ;
+text-decoration: none;
+font-size: 0,5em;
+padding: 0.2em;
+ }
