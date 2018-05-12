@@ -15,3 +15,10 @@ font-family: 'ubuntu', sans-serif;
 a {
     text-decoration: none ;
   }
+
+
+    .container {
+    max-width: 56em;
+    margin-right: auto;
+    margin-left: auto;
+    }
