@@ -1,0 +1,17 @@
+body {
+
+color: rgb(255,255,255);
+font-family: 'ubuntu', sans-serif;
+  background-image: url(images/perdu.png);
+  overflow: hidden;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+
+a {
+    text-decoration: none ;
+  }
