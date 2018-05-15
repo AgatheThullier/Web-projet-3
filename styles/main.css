@@ -1,45 +1,51 @@
 body {
 
-color: rgb(255,255,255);
-font-family: 'ubuntu', sans-serif;
-  background-image: url(images/acceuil.png);
+color:  #FFFFFF ;
+font-family: 'futura', sans-serif;
+  background-image: url(images/index.png);
+margin-top: 0px;
+background-color:  rgb(20, 90, 50);
   overflow: hidden;
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
   padding-top: 5em;
   padding-bottom: 5em;
+  font-weight: bold;
 }
 
+.home {
+ max-width: 56em;
+ padding-left: 2em;
+ margin-top: 0em;
+ }
 
-h1 {
-font-size: 4em;
-margin-top: 0em;
-
-}
-
-.container {
-max-width: 56em;
-margin-right: auto;
-margin-left: auto;
-}
-
-#section01 {
-
-  }
-
-
-  .choix {
-  max-width: 56em;
-  margin-right: auto;
-  margin-left: auto;
-  }
-
-  .choix a{
-
+  .home a{
 color: #FFFFFF ;
 text-decoration: none;
 font-size: 0,5em;
 padding: 0.2em;
+ }
+
+
+
+#fond {
+  margin-top: 0px;
+}
+
+
+ .choix {
+  max-width: 56em;
+  margin-right: auto;
+  margin-left: 300px;
+  margin-top: 400px;
 
   }
+
+
+  .choix a{
+color: #FFFFFF ;
+text-decoration: none;
+font-size: 0,5em;
+padding: 0.2em;
+ }

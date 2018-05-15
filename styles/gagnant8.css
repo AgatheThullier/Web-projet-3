@@ -9,6 +9,7 @@ font-family: 'ubuntu', sans-serif;
   background-attachment: fixed;
   padding-top: 5em;
   padding-bottom: 5em;
+  font-weight: bold;
 }
 
 
@@ -27,16 +28,18 @@ padding: 0.2em;
  }
 
 
- .choix {
-  max-width: 56em;
-  margin-right: auto;
-  margin-left: auto;
+  .choix {
+   max-width: 56em;
+   margin-right: auto;
+   margin-left: 250px;
+   margin-top: 420px;
+
+   }
+
+
+   .choix a{
+ color: #FFFFFF ;
+ text-decoration: none;
+ font-size: 0,5em;
+ padding: 0.2em;
   }
-
-
-  .choix a{
-color: #FFFFFF ;
-text-decoration: none;
-font-size: 0,5em;
-padding: 0.2em;
- }

@@ -9,6 +9,8 @@ font-family: 'ubuntu', sans-serif;
   background-attachment: fixed;
   padding-top: 5em;
   padding-bottom: 5em;
+position: absolute;
+font-weight: bold;
 }
 
 
@@ -30,7 +32,9 @@ padding: 0.2em;
  .choix {
   max-width: 56em;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 250px;
+  margin-top: 420px;
+
   }
 
 

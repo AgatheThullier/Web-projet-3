@@ -1,0 +1,47 @@
+body {
+
+color: #20542d;
+font-family: 'futura', sans-serif;
+font-weight: bold;
+  background-image: url(images/first2.png);
+  overflow: hidden;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+
+.home {
+ max-width: 56em;
+ padding-left: 2em;
+ margin-top: 0em;
+ }
+
+  .home a{
+color: #FFFFFF ;
+text-decoration: none;
+font-size: 0,5em;
+padding: 0.2em;
+ }
+
+
+ .choix {
+  margin-right: auto;
+  margin-left: 500px;
+  margin-top: 400px;
+  }
+
+
+  .choix a{
+color: #FFFFFF ;
+text-decoration: none;
+background-color: #25662c;
+font-size: 1.7em;
+padding: 0.2em;
+border-radius: 90px 90px 90px 90px;
+-moz-border-radius: 90px 90px 90px 90px;
+-webkit-border-radius: 90px 90px 90px 90px;
+border: 10px solid #25662c;
+ }
