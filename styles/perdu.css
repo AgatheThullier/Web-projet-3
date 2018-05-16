@@ -31,7 +31,7 @@ padding: 0.2em;
    margin-right: auto;
    margin-left: 500px;
    margin-top: 100px;
-      
+
    }
 
 
@@ -40,11 +40,18 @@ padding: 0.2em;
  text-decoration: none;
  background-color:  #FFFFFF ;
  font-size: 1.7em;
- padding: 0.2em;
+ padding: 0.4em;
  border-radius: 90px 90px 90px 90px;
  -moz-border-radius: 90px 90px 90px 90px;
  -webkit-border-radius: 90px 90px 90px 90px;
- border: 10px solid #FFFFFF;
+ border: 0px solid #FFFFFF;
     font-weight: bold;
+    transition: all 0.20s ease;
 
   }
+
+  .choix a:hover {
+
+    color: #FFFFFF   ;
+background-color:  #25662c ;
+   }

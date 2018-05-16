@@ -44,4 +44,12 @@ border-radius: 90px 90px 90px 90px;
 -moz-border-radius: 90px 90px 90px 90px;
 -webkit-border-radius: 90px 90px 90px 90px;
 border: 10px solid #25662c;
+transition: all 0.20s ease;
  }
+
+
+ .choix a:hover {
+
+   color: #FFFFFF   ;
+background-color:  #25662c ;
+  }
