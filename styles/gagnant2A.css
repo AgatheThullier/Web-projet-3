@@ -1,7 +1,7 @@
 body {
 
 color:  #FFFFFF ;
-font-family: 'futura', sans-serif;
+font-family: 'infini', sans-serif;
   background-image: url(images/cheminperdant2.png);
 margin-top: 0px;
 background-color:  rgb(20, 90, 50);
@@ -11,7 +11,8 @@ background-color:  rgb(20, 90, 50);
   background-attachment: fixed;
   padding-top: 0em;
   padding-bottom: 5em;
-  font-weight: bold;
+
+
 }
 
 .home {
@@ -30,19 +31,18 @@ padding: 0.2em;
 
 
  .choix {
-
-  margin-left:500px;
+position: absolute;
+right : 22px;
+top : 22px;
   margin-top: 0px;
   color: #FFFFFF ;
   text-decoration: none;
-  background-color: rgba(20, 90, 50);
-  padding: 2em;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  background-color: rgba(20, 90, 50, 0.6);
+  padding: 0.5em;
   border-radius: 90px 90px 90px 90px;
   -moz-border-radius: 90px 90px 90px 90px;
-  -webkit-border-radius: 90px 90px 90px 90px;
-  border: 2px solid #25662c;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border: 0px solid #25662c;
   text-align: center;
   width: 600px;
   font-size: 1em;
@@ -56,8 +56,20 @@ text-decoration: none;
 font-size: 1em;
 padding: 0em;
 text-align: center;
+transition: all 0.20s ease;
+border-radius: 1em;
+display: block;
+
  }
 
+
+.choix a:hover {
+
+  color: #FF0000  ;
+
+ }
+
+
 li {
-  text-decoration: none;
-}
+  text-align: center;
+ }
