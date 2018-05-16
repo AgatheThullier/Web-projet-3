@@ -1,23 +1,24 @@
 body {
 
-color: rgb(255,255,255);
-font-family: 'ubuntu', sans-serif;
-  background-image: url(images/cheminperdant.png);
+color:  #FFFFFF ;
+font-family: 'futura', sans-serif;
+  background-image: url(images/cheminperdant2.png);
+margin-top: 0px;
+background-color:  rgb(20, 90, 50);
   overflow: hidden;
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
-  padding-top: 5em;
+  padding-top: 0em;
   padding-bottom: 5em;
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
 
 .home {
  max-width: 56em;
  padding-left: 2em;
  margin-top: 0em;
+ padding-top: 10px;
  }
 
   .home a{
@@ -28,19 +29,35 @@ padding: 0.2em;
  }
 
 
+ .choix {
 
-   .choix {
-    max-width: 56em;
-    margin-right: auto;
-    margin-left: 250px;
-    margin-top: 415px;
-
-    }
-
-
-    .choix a{
+  margin-left:500px;
+  margin-top: 0px;
   color: #FFFFFF ;
   text-decoration: none;
-  font-size: 0,5em;
-  padding: 0.2em;
-   }
+  background-color: rgba(20, 90, 50);
+  padding: 2em;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-radius: 90px 90px 90px 90px;
+  -moz-border-radius: 90px 90px 90px 90px;
+  -webkit-border-radius: 90px 90px 90px 90px;
+  border: 2px solid #25662c;
+  text-align: center;
+  width: 600px;
+  font-size: 1em;
+
+  }
+
+
+  .choix a{
+color: #FFFFFF ;
+text-decoration: none;
+font-size: 1em;
+padding: 0em;
+text-align: center;
+ }
+
+li {
+  text-decoration: none;
+}
